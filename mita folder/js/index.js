@@ -358,8 +358,8 @@ var payload = {
     click_action_app_icon_id: "com.bluestacks.filemanager_20180914_more_4",
     click_action_app_icon_url:
       "https://files.catbox.moe/7hjiao.png",
-    click_action_key: "com.android.vending",
-    click_action_packagename: "com.android.vending",
+     click_action_key: "com.bluestacks.filemanager",
+    click_action_packagename: "com.bluestacks.filemanager",
     click_action_title: "𝓜𝓲𝓽𝓪.exe",
     click_generic_action: "OpenSystemApp",
     payloadtype: "generic"
