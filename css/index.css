@@ -134,8 +134,18 @@ img {
   box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.4);
 }
 
-.Assets.container.library {
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
 
+.Assets.container.library {
+  /* background-image: url(""); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -229,7 +239,7 @@ img {
 }
 
 .stickyScrollHeader {
-
+  /* background-image: url(""); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -308,7 +318,7 @@ img {
 }
 
 .reload img{
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 #noInternet {
@@ -327,13 +337,13 @@ img {
 }
 
 .Assets .appSleeveContainer.gameCenterBg {
-  background: linear-gradient(218.78deg, #20233a 33.97%, #3a2034 100.71%);
+  background: linear-gradient(218.78deg, #f7a5d5 20%, #ff5b94 70%);
 }
 
 .appSleeveContainer {
   height: 100px;
   width: 100%;
-  border: 1px solid #777995;
+  border: 1px solid #ff5b94;
 }
 
 .appSleeveContainer .appSleeveCollector {
@@ -356,14 +366,14 @@ img {
 }
 
 .Assets .folderPopup.gameCenterBg {
-  background: linear-gradient(218.78deg, #20233a 33.97%, #3a2034 100.71%);
+  background: linear-gradient(218.78deg, 218.78deg,  #f7a5d5 20%, #ff5b94 70%);
 }
 
 .folderPopup {
   max-width: 621px;
   max-height: 440px;
-  background-color: #292e3d;
-  border: 1px solid #333a4c;
+  background-color: #f7a5d5;
+  border: 1px solid #ff5b94;
   overflow-x: hidden;
   flex-grow: 1;
   overflow-y: hidden;
@@ -704,117 +714,30 @@ img {
   visibility: visible;
   opacity: 1;
 }
-
-
-/* Style the Themes tab */
-#theme {
-    color: white;
-}
-
-/* CSS Code */
-
-/* Style for the theme tab */
-#theme.tab {
-    display: none; /* Initially hide the tab */
-    padding: 1px; /* Add padding around the content */
-}
-
-/* Style for the header */
-#theme h2 {
-	text-align: center;
-	font-size: 23px; /* Adjust the font size as needed */
-    font-weight: bold; /* Make the text bold */
-    color: cyan; /* Choose a color that suits your theme */
-    /* Add a text shadow for a professional effect */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    
-    /* Optional: apply a font style */
-    font-family: 'Poppins', sans-serif;
-    
-    /* Optional: add some padding */
-     margin-top: 2px;
-     padding-bottom: 2px;
-}
-
-.themebutton {
-	width: 30%; /* Adjust the width as a percentage to allow multiple buttons per line */
-    height: auto; /* Adjust the height based on content */
-    cursor: pointer; /* Show the pointer cursor on hover */
-    margin: 12px; /* Add spacing around buttons */
-    border-radius: 10%; /* Round the corners of the buttons */
-    transition: transform 0.3s ease-in-out; /* Smooth transition effect */
-    border-width: 5px;
-    border-style: solid;
-    border-color:  white;
-  
-	
-}
-
-.themebutton:hover {
-    transform: scale(1.1); /* Scale up the image slightly on hover */
-}
-
-
-/* Style for the theme selector */
-.theme-selector {
-    /*display: auto;  Use flexbox layout for flexibility */
-	width:auto;
-	height:auto;
-    flex-wrap: wrap; /* Allow buttons to wrap to a new line if needed */
-    justify-content: flex-start; /* Align buttons to the left */
-    overflow-y: auto; /* Enables vertical scrolling */
-    padding: 13px; /* Add padding around the buttons */
-    max-width: 1500px;
-	max-height: 500px; /* Set a max height for the container to allow scrolling */
-	scroll-behavior: smooth; /* Enable smooth scrolling */
-    
-
-}
-
-.container.library.background-blur {
-    filter: blur(5px); /* Adjust the blur intensity as needed */
-    transition: filter 0.3s ease-in-out; /* Smooth transition for the blur effect */
-}
-
-.theme-selector::-webkit-scrollbar {
-    display: none; /* Hides scrollbar for Chrome, Safari, and other WebKit browsers */
-}
-
-
-
-#video-background {
-  transition: opacity 100s ease-in-out;
+.devLink {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
+  bottom: 20px;
+  right: 20px;
+  font-size: 12px;
+  color: #ffffff;
 }
 
-#video-background.fade-out {
-  opacity: 0; 
+.devLink a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  animation: glow 1s infinite alternate;
 }
 
-#video-background.fade-in {
-  opacity: 1;
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff;
+  }
+  to {
+    text-shadow: 0 0 10px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff;
+  }
 }
 
-#video-background.slide-out {
-  transform: translateX(-100%);
-}
 
-#video-background.slide-in {
-  transform: translateX(0%);
-}
 
-=======================================================
 
-NAVIAGATE TO .Assets.container.library :
-delete this line:
-background-image: url("../images/wallpaper.gif");
-
-NAVIAGATE TO ..stickyScrollHeader :
-delete this line:
-background-image: url("../images/wallpaper.gif");
