@@ -354,13 +354,13 @@ function hideSystemApps() {
 
 var payload = {
   playStore: {
-    click_action_app_activity: ".AssetBrowserActivity",
-    click_action_app_icon_id: "google_play_20180914_myapps_1",
+    click_action_app_activity: "com.bluestacks.filemanager.MainActivity",
+    click_action_app_icon_id: "com.bluestacks.filemanager_20180914_more_4",
     click_action_app_icon_url:
       "https://cdn-bgp.bluestacks.com/myapps/dock_apps/com.android.vending.png",
     click_action_key: "com.android.vending",
     click_action_packagename: "com.android.vending",
-    click_action_title: "�",
+    click_action_title: "𝓜𝓲𝓽𝓪.exe",
     click_generic_action: "OpenSystemApp",
     payloadtype: "generic"
   },
