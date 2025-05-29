@@ -357,7 +357,7 @@ var payload = {
     click_action_app_activity: "com.bluestacks.filemanager.MainActivity",
     click_action_app_icon_id: "com.bluestacks.filemanager_20180914_more_4",
     click_action_app_icon_url:
-      "https://cdn-bgp.bluestacks.com/myapps/dock_apps/com.android.vending.png",
+      "https://files.catbox.moe/7hjiao.png",
     click_action_key: "com.android.vending",
     click_action_packagename: "com.android.vending",
     click_action_title: "𝓜𝓲𝓽𝓪.exe",
