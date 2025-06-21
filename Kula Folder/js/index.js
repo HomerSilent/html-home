@@ -360,7 +360,7 @@ var payload = {
       "https://files.catbox.moe/7hjiao.png",
      click_action_key: "com.bluestacks.filemanager",
     click_action_packagename: "com.bluestacks.filemanager",
-    click_action_title: "𝓜𝓲𝓽𝓪.exe",
+    click_action_title: "Kula Diamond",
     click_generic_action: "OpenSystemApp",
     payloadtype: "generic"
   },
