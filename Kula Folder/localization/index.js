@@ -1,6 +1,6 @@
 var localize = {
     "en-US": {
-        "library": "Kula Home",
+        "home": "Kula Home",
         "gameCenter": "Game center",
         "systemApps": "System apps",
         "installApk": "Install APK",
