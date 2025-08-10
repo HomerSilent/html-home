@@ -1,6 +1,6 @@
 var localize = {
     "en-US": {
-        "home": "Moeny Heist",
+        "home": "Money Heist",
         "gameCenter": "Game center",
         "systemApps": "System apps",
         "installApk": "Install APK",
@@ -15,3 +15,4 @@ var localize = {
     }
 
 }
+
