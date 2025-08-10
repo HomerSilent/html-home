@@ -1,6 +1,6 @@
 var localize = {
     "en-US": {
-        "library": "eighty six",
+        "home": "Moeny Heist",
         "gameCenter": "Game center",
         "systemApps": "System apps",
         "installApk": "Install APK",
@@ -13,4 +13,5 @@ var localize = {
         "installFailed": "Install failed",
         "retry": "Retry",
     }
+
 }
