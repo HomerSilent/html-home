@@ -327,13 +327,13 @@ img {
 }
 
 .Assets .appSleeveContainer.gameCenterBg {
-  background: linear-gradient(218.78deg, #20233a 33.97%, #3a2034 100.71%);
+  background: linear-gradient(218.78deg, #776444 20%, #6b5d46 70%);
 }
 
 .appSleeveContainer {
   height: 100px;
   width: 100%;
-  border: 1px solid #777995;
+  border: 1px solid #744700;
 }
 
 .appSleeveContainer .appSleeveCollector {
@@ -356,14 +356,14 @@ img {
 }
 
 .Assets .folderPopup.gameCenterBg {
-  background: linear-gradient(218.78deg, #20233a 33.97%, #3a2034 100.71%);
+  background: linear-gradient(218.78deg, #776444 20%, #6b5d46 70%);
 }
 
 .folderPopup {
   max-width: 621px;
   max-height: 440px;
-  background-color: #292e3d;
-  border: 1px solid #333a4c;
+  background-color: #776444;
+  border: 1px solid #6b5d46;
   overflow-x: hidden;
   flex-grow: 1;
   overflow-y: hidden;
@@ -704,5 +704,6 @@ img {
   visibility: visible;
   opacity: 1;
 }
+
 
 
